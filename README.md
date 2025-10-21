@@ -4,5 +4,3 @@
 ## Tech Stack 
 Frontend: React, React router 
 npm package: react toastify 
-## Author:
-- Mo Fahim Raj

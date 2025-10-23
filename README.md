@@ -5,7 +5,6 @@
 ## 🚀 Live Demo
 🔗 [View Portfolio](https://your-portfolio-link.netlify.app/)
 
----
 
 ## 🧰 Tech Stack
 
@@ -15,7 +14,6 @@
 - 🌐 **React Router DOM**
 - 📱 **Responsive Design**
 
----
 
 ## 📸 Screenshots
 
@@ -44,6 +42,42 @@ portfolio/
 │
 ├── package.json
 └── README.md
+
+## ⚙️ Setup Instructions
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/your-username/portfolio.git
+2️⃣ Navigate into the project
+bash
+Copy code
+cd portfolio
+3️⃣ Install dependencies
+bash
+Copy code
+npm install
+4️⃣ Run the project locally
+bash
+Copy code
+npm start
+The app will open in your browser at http://localhost:3000.
+
+🌍 Deployment
+You can easily deploy this project using:
+
+Netlify
+
+Vercel
+
+GitHub Pages
+
+Example (for Netlify):
+
+Run npm run build
+
+Drag and drop the build folder into Netlify
+
+
 
 ### 👨‍💻 Author
 - [Mo Fahim Raj](https://www.linkedin.com/in/mo-fahim-raj-175b9b304/)

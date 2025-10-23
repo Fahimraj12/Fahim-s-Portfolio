@@ -43,10 +43,16 @@ portfolio/
 ├── package.json
 └── README.md
 
-## ⚙️ Setup Instructions
 
-### 1️⃣ Clone the repository
+### 👨‍💻 Author
+- [Mo Fahim Raj](https://www.linkedin.com/in/mo-fahim-raj-175b9b304/)
+- 📧 [mofahimraj@gmail.com]
+- 🔗 [GitHub Profile](https://github.com/Fahimraj12)
+
+## ⚙️ Setup Instructions
 ```bash
+### 1️⃣ Clone the repository
+
 git clone https://github.com/your-username/portfolio.git
 2️⃣ Navigate into the project
 bash
@@ -66,20 +72,8 @@ The app will open in your browser at http://localhost:3000.
 You can easily deploy this project using:
 
 Netlify
-
 Vercel
-
 GitHub Pages
-
 Example (for Netlify):
-
 Run npm run build
-
 Drag and drop the build folder into Netlify
-
-
-
-### 👨‍💻 Author
-- [Mo Fahim Raj](https://www.linkedin.com/in/mo-fahim-raj-175b9b304/)
-- 📧 [mofahimraj@gmail.com]
-- 🔗 [GitHub Profile](https://github.com/Fahimraj12)

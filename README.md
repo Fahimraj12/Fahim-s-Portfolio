@@ -1,12 +1,61 @@
-# React + Vite
+# 👨‍💻 Fahim Raj - Portfolio
 
-This template provides a minimal setup to get React Projectsing in Vite with HMR and some ESLint rules.
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live-green)](https://your-portfolio-link.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://linkedin.com/in/your-profile)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-black)](https://github.com/Fahimraj12)
 
-Currently, two official plugins are available:
+> Full Stack Developer | React Enthusiast | Backend Specialist
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Welcome to my personal portfolio! A modern, responsive web application showcasing my projects, skills, and journey as a developer.
 
-## Expanding the ESLint configuration
+## 🚀 Live Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Portfolio Website:** [your-portfolio-link.com](https://your-portfolio-link.com)
+
+## ✨ Features
+
+- 🎨 **Modern UI/UX** - Clean, responsive design with smooth animations
+- ⚡ **Fast Performance** - Optimized with React and Vite
+- 📱 **Mobile First** - Fully responsive across all devices
+- 🎯 **Interactive Elements** - Hover effects, typing animations, parallax
+- 📧 **Contact Form** - Integrated with EmailJS for direct communication
+- 🌙 **Dark/Light Mode** - (If implemented) Theme switching capability
+
+## 🛠️ Tech Stack
+
+### Frontend
+- **React** - Frontend framework
+- **Vite** - Build tool and dev server
+- **Tailwind CSS** - Utility-first CSS framework
+- **React Router** - Client-side routing
+- **React Icons** - Beautiful icons
+
+### Additional Libraries
+- **React Parallax Tilt** - 3D tilt effects
+- **React Typing Effect** - Typing animations
+- **React Toastify** - Beautiful notifications
+- **EmailJS** - Contact form functionality
+
+### Deployment
+- **Vercel/Netlify** - Frontend deployment
+- **GitHub Pages** - Alternative hosting
+
+## 📁 Project Structure
+portfolio/
+###### ├── public/
+###### │ ├── index.html
+###### │ └── assets/
+###### ├── src/
+###### │ ├── components/
+###### │ │ ├── Header/
+###### │ │ ├── Hero/
+###### │ │ ├── About/
+###### │ │ ├── Skills/
+###### │ │ ├── Projects/
+###### │ │ ├── Contact/
+###### │ │ └── Footer/
+###### │ ├── styles/
+###### │ ├── utils/
+###### │ └── App.jsx
+###### ├── package.json
+###### └── vite.config.js

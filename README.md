@@ -59,3 +59,49 @@ portfolio/
 ###### │ └── App.jsx
 ###### ├── package.json
 ###### └── vite.config.js
+
+
+## 🎯 Key Sections
+
+### 🏠 Hero Section
+- Eye-catching introduction
+- Animated typing effect
+- Call-to-action buttons
+
+### 👨‍💻 About Me
+- Personal introduction
+- Background and passion
+- Professional journey
+
+### 💻 Skills
+- Technical skills grid
+- Programming languages
+- Frameworks & tools
+- Soft skills
+
+### 🚀 Projects
+- Featured project showcase
+- Project cards with:
+  - Live demo links
+  - GitHub repositories
+  - Tech stack badges
+  - Project descriptions
+
+### 📞 Contact
+- Contact form with validation
+- Social media links
+- Direct email option
+- Location information
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (v16 or higher)
+- npm or yarn
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Fahimraj12/Portfolio.git
+   cd Portfolio

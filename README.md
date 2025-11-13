@@ -41,25 +41,26 @@ Welcome to my personal portfolio! A modern, responsive web application showcasin
 - **GitHub Pages** - Alternative hosting
 
 ## 📁 Project Structure
+ ```
 portfolio/
-###### ├── public/
-###### │ ├── index.html
-###### │ └── assets/
-###### ├── src/
-###### │ ├── components/
-###### │ │ ├── Header/
-###### │ │ ├── Hero/
-###### │ │ ├── About/
-###### │ │ ├── Skills/
-###### │ │ ├── Projects/
-###### │ │ ├── Contact/
-###### │ │ └── Footer/
-###### │ ├── styles/
-###### │ ├── utils/
-###### │ └── App.jsx
-###### ├── package.json
-###### └── vite.config.js
-
+├── public/
+│ ├── index.html
+│ └── assets/
+├── src/
+│ ├── components/
+│ │ ├── Header/
+│ │ ├── Hero/
+│ │ ├── About/
+│ │ ├── Skills/
+│ │ ├── Projects/
+│ │ ├── Contact/
+│ │ └── Footer/
+│ ├── styles/
+│ ├── utils/
+│ └── App.jsx
+├── package.json
+└── vite.config.js
+ ```
 
 ## 🎯 Key Sections
 

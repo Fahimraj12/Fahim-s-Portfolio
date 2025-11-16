@@ -106,7 +106,14 @@ portfolio/
    ```bash
    git clone https://github.com/Fahimraj12/Portfolio.git
    cd Portfolio
+2. **Install the Package**
+   ```bash
+   npm install
 
+1. **Run the Project**
+   ```bash
+   npm run dev
+   
 ### 👨‍💻 Author
 - [Mo Fahim Raj](https://www.linkedin.com/in/mo-fahim-raj-175b9b304/)
 - 📧 [mofahimraj@gmail.com]

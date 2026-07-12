@@ -1,60 +1,57 @@
-import React from 'react'
+import React from 'react';
 import { SkillsInfo } from '../../constants';
 import Tilt from 'react-parallax-tilt';
+
 export const Skills = () => {
   return (
     <section 
-    id='skills'
-    className='py-24 pb-24 px-[12vw] md:px-[7vw] lg:px-[20vw] font-sans bg-skills-gradient'>
-      <div className='text-center mb-8'>
-        <h2 className='text-3xl sm:text-4xl font-bold text-white'>SKILLS</h2>
-        <div className='w-24 h-1 bg-[#8245ec] mx-auto mt-2'></div>
-        <p className='text-gray-400 mt-4 text-lg font-semibold'>
-          A collection of my technical skills and expertise honed through various projects and experiences.
+      id='skills'
+      className='relative py-24 px-6 md:px-12 lg:px-24 max-w-7xl mx-auto font-sans'
+    >
+      {/* Background ambient light */}
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-purple-500/5 rounded-full blur-3xl pointer-events-none" />
+
+      <div className='text-center mb-16 relative z-10'>
+        <h2 className='text-3xl sm:text-5xl font-extrabold text-white tracking-tight'>
+          SKILLS
+        </h2>
+        <div className='w-20 h-1 bg-gradient-to-r from-purple-500 to-pink-500 mx-auto mt-4 rounded-full'></div>
+        <p className='text-gray-400 mt-6 text-base sm:text-lg max-w-2xl mx-auto font-medium'>
+          A comprehensive suite of technologies and frameworks I have mastered and applied across different domains.
         </p>
       </div>
-      <div className="flex flex-wrap gap-1 lg:gap-5 py-10 justify-between">
-      {SkillsInfo.map((category) => (
-        <div
-          key={category.title}
-          className="bg-gray-900 backdrop-blur-md px-6 sm:px-10 py-8 sm:py-6 mb-10 w-full sm:w-[48%] rounded-2xl border border-white 
-          shadow-[0_0_20px_1px_rgba(130,69,236,0.3)]"
-        >
-          <h3 className="text-2xl sm:text-3xl font-semibold text-gray-400 mb-4 text-center">
-            {category.title}
-          </h3>
 
-          {/* Skill Items - 3 per row on larger screens */}
-          <Tilt
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 relative z-10">
+        {SkillsInfo.map((category) => (
+          <div
             key={category.title}
-            tiltMaxAngleX={20}
-            tiltMaxAngleY={20}
-            perspective={1000}
-            scale={1.05}
-            transitionSpeed={1000}
-            gyroscope={true}
+            className="bg-white/5 backdrop-blur-xl p-8 rounded-2xl border border-white/10 shadow-[0_8px_32px_rgba(0,0,0,0.37)] hover:border-purple-500/30 hover:shadow-[0_8px_32px_rgba(130,69,236,0.15)] transition-all duration-300"
           >
-            <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 w-full">
+            <h3 className="text-xl sm:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-300 to-pink-300 mb-6 border-b border-white/5 pb-3">
+              {category.title}
+            </h3>
+
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
               {category.skills.map((skill) => (
                 <div
                   key={skill.name}
-                  className="flex items-center justify-center space-x-2 bg-transparent border-2 border-gray-700 rounded-3xl py-2 px-2 sm:py-2 sm:px-2 text-center"
+                  className="flex items-center space-x-2.5 bg-white/5 border border-white/5 hover:border-purple-500/30 hover:bg-white/10 rounded-xl p-2.5 transition-all duration-200 group cursor-default"
                 >
                   <img
                     src={skill.logo}
                     alt={`${skill.name} logo`}
-                    className="w-6 h-6 sm:w-8 sm:h-8"
+                    className="w-7 h-7 object-contain group-hover:scale-110 transition-transform duration-200"
                   />
-                  <span className="text-xs sm:text-sm text-gray-300">
+                  <span className="text-xs sm:text-sm text-gray-300 font-medium group-hover:text-white transition-colors duration-200">
                     {skill.name}
                   </span>
                 </div>
               ))}
             </div>
-          </Tilt>
-        </div>
-      ))}
-    </div>
-          </section>
-  )
-}
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+};
+

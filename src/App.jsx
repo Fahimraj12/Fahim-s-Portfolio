@@ -10,25 +10,46 @@ import { Certificate } from './components/Certificate/Certificate';
 import { Contact } from './components/Contact/Contact';
 import { Footer } from './components/Footer/Footer';
 import BlurBlob from './BlurBlob';
-function App() {
 
+function App() {
   return (
-    <div className="bg-[#050414]">
-      <BlurBlob position={{top: '35%', left: '20%' }} size={{width : '30%', height: '40%'}}></BlurBlob>
-      <div className="absolute inset-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)]"> </div>
-      <div className='relative pt-20'>
-        <Navbar></Navbar>
-        <About></About>
-        <Skills></Skills>
-        <Experience></Experience>
-        <Projects></Projects>
-        <Education></Education>
-        <Certificate></Certificate>
-        <Contact></Contact>
-        <Footer></Footer>
+    <div className="bg-[#050414] text-white relative min-h-screen overflow-x-hidden selection:bg-purple-500/30">
+      {/* Dynamic Background Glowing Blobs */}
+      <BlurBlob 
+        position={{ top: '20%', left: '15%' }} 
+        size={{ width: '35vw', height: '35vw' }} 
+        color="bg-purple-600" 
+        animation="animate-blob-slow" 
+      />
+      <BlurBlob 
+        position={{ top: '55%', left: '85%' }} 
+        size={{ width: '40vw', height: '40vw' }} 
+        color="bg-indigo-600" 
+        animation="animate-blob-medium" 
+      />
+      <BlurBlob 
+        position={{ top: '85%', left: '20%' }} 
+        size={{ width: '30vw', height: '30vw' }} 
+        color="bg-pink-600" 
+        animation="animate-blob-slow" 
+      />
+
+      {/* Decorative Mesh Grid */}
+      <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff03_1px,transparent_1px),linear-gradient(to_bottom,#ffffff03_1px,transparent_1px)] bg-[size:24px_24px] pointer-events-none" />
+
+      <div className='relative z-10 pt-20'>
+        <Navbar />
+        <About />
+        <Skills />
+        <Experience />
+        <Projects />
+        <Education />
+        <Certificate />
+        <Contact />
+        <Footer />
       </div>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
